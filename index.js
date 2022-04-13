@@ -1,11 +1,11 @@
-const people = [
-    {name: "Vlad", age: 25, budget: 1000000000},
-    {name: "Julia", age: 20, budget: 10000},
-    {name: "Anastasia", age: 15, budget: 0},
-    {name: "Oleksandr", age: 45, budget: 100000},
-    {name: "Ira", age: 40, budget: 100},
-    {name: "Kiril", age: 18, budget: 1000},
-]
+// const people = [
+//     {name: "Vlad", age: 25, budget: 1000000000},
+//     {name: "Julia", age: 20, budget: 10000},
+//     {name: "Anastasia", age: 15, budget: 0},
+//     {name: "Oleksandr", age: 45, budget: 100000},
+//     {name: "Ira", age: 40, budget: 100},
+//     {name: "Kiril", age: 18, budget: 1000},
+// ]
 
 // for (let i = 0; i < people.length; i++){
 //     console.log(people[i])
@@ -74,13 +74,13 @@ const people = [
 
 
 
-const task = people
-                    .filter(person => person.budget > 1000)
-                    .map(person => {
-                        return {
-                            info: `${person.name} (${person.age})`,
-                            budget: Math.sqrt(person.budget)
-                        }
-                    })
-                    .reduce((total, person) => total + person.budget, 0)
-console.log(task)
+// const task = people
+//                     .filter(person => person.budget > 1000)
+//                     .map(person => {
+//                         return {
+//                             info: `${person.name} (${person.age})`,
+//                             budget: Math.sqrt(person.budget)
+//                         }
+//                     })
+//                     .reduce((total, person) => total + person.budget, 0)
+// console.log(task)
